@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="simpleWeb.css">
+</head>
+<body>
+    <header>
+        <h1>My Stylish Website</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id ="home">
+        <h2>Welcome</h2>
+        <p>This is <strong>an attractive demo</strong> website that uses HTML and CSS with animations, layouts, and styling.</p>
+        <ul>
+            <li> Responsive design</li>
+            <li> Navigation & Hero</li>
+            <li> Tables & Cards</li>
+            <li> Styled Forms </li>
+        </ul>
+    </section>
+    <section id = "about">
+        <h2>About</h2>
+        <div class="container">
+            <div>
+                <p><strong>HTML</strong>builds the structure of a page, while <strong>CSS</strong> makes it beautiful.</p>
+                <p>Here is an example student marks table:</p>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                    </tr>
+                    <tr>
+                        <td>Alice</td>
+                        <td>Math</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>Science</td>
+                        <td>85</td>
+                    </tr>
+                </table>
+            </div>
+            <img src="r2.jpg" width="500px" height="300px" alt="about image">          
+        </div>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <div class="card">
+                <img src="images/i2.jpeg" width="300px" height="200px" alt="Image1">
+                <p>Sample Image 1</p>
+            </div>
+            <div class="card">
+                <img src="images/i3.jpeg" width="300px" height="200px" alt="Image2">
+                <p>Sample Image 2</p> 
+            </div>
+            <div class="card">
+                <img src="images/i4.jpg" width="300px" height="200px" alt="Image3">
+                <p>Sample Image 3</p>
+            </div>
+            <div class="card">
+                <img src="images/i5.webp" width="300px" height="200px" alt="Image4">
+                <p>Sample Image 4</p>
+            </div>
+            <div class="card">
+                <img src="images/i6.webp" width="300px" height="200px" alt="Image5">
+                <p>Sample Image 5</p>
+            </div>
+            <div class="card">
+                <img src="images/i7.jpg" width="300px" height="200px" alt="Image6">
+                <p>Sample Image 6</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email" required>
+            <label>Message:</label>
+            <textarea rows="4" placeholder="Enter your message" required></textarea>
+            <button type="submit" value="Submit">Send Message</button>
+        </form>        
+    </section>
+    <footer>
+        <p>&copy; 2025 My Stylish Website</p>
+    </footer>
+</body>
+</html>
